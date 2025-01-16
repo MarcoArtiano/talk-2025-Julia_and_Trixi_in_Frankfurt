@@ -191,7 +191,7 @@ mesh = StructuredMesh(cells_per_dimension,
 md""" 
 #### DGSEM Discretization
 
-DGSEM Flux differencing semi-discretization has been choosen for these test cases. 
+DGSEM Flux differencing semi-discretization has been chosen for these test cases. 
 - Third order polynomial degree
 - LMARS flux for the surface integral
 - Kennedy-Gruber flux for the volume integral (symmetric!)
@@ -406,7 +406,7 @@ end
 md""" 
 ## Adaptive-Mesh Refinement
 
-Simulations in Trixi.jl can be speed up maintaining an overall good accuracy through Adaptive Mesh Refinement. The hierarchical Cartesian mesh is locally refined, based on a choosen reference variable.
+Simulations in Trixi.jl can be sped up maintaining an overall good accuracy through Adaptive Mesh Refinement. The hierarchical Cartesian mesh is locally refined, based on a chosen reference variable.
 
 In Trixi.jl some callback functions can be defined, for numerical analysis and step size control. The AMR function is also defined passing an AMR Callback to the ODE solver, as shown in this example.
 
